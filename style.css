@@ -1,0 +1,27 @@
+body{
+    background: url(../imagenes/descarga.jpg);
+    /* fonde de color #2396bd */
+}    
+/* este elemento se conoce como selector (button) */
+button{
+    /* el corchete es el limite */
+    /* pudding es una propiedad y despues del punto esta el valor de la propiedad */
+    padding: 12px 60px; 
+    margin: 20px;
+    font-size: 24px;
+    background: #000000;
+    color: #165216;
+    border-radius: 11px;
+    border: 4px solid #ffffff;
+    /* el efecto hover para que cambie la forma del cursor */
+    cursor: pointer;
+    /* pointer para la manito, move para el efecto de movimiento */
+    transition: 0.5;
+
+}
+button:hover{
+    background: #ffffff;
+    color: #000000;
+    padding: 12px 80px;
+
+}
